@@ -1,0 +1,95 @@
+.header {
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.demo{
+    height: 300px;
+    width: 250px;
+    margin: -145px 100px ;
+}
+.op{
+
+  /* opacity: 0.65; */
+  color: #1c1c1c;
+}
+ 
+    .hero {
+      background: url('../img/bg.jpg') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover;
+        /* background-attachment: fixed;   */
+        /* background-repeat: no-repeat;  */
+        /* text-align: center; */
+        /* opacity: 0.65; */
+        /* background-position: center; */
+    }
+   
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      font-weight: 300;
+    }
+    
+    .items{
+    padding: 15px;
+    box-shadow: 0px 5px 40px -8px rgba(0, 0, 0, .1);
+    margin-bottom: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+.icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.fa {
+    display: inline-block;
+    font: normal  14px ;
+    font-size: inherit;
+    text-rendering: auto;
+  
+}
+.author-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+.fream{
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+.buton-bg{
+  background: #1c1c1c;
+  color: #eee;
+}
+.buton {
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.dark
+{
+
+    background: #000;
+}
